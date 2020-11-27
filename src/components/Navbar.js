@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
-      <nav className='navbar navbar-expand-sm navbar-light bg-light mb-3'>
+      <nav className='navbar navbar-expand-sm navbar-light bg-light mb-2'>
         <div className='container'>
           <Link to='/' className='navbar-brand'>
             <span id='logo'>Clone</span>
